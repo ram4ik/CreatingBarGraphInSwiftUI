@@ -13,6 +13,8 @@
 		1D934EFB23DE27AD00F99AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D934EFA23DE27AD00F99AE0 /* Assets.xcassets */; };
 		1D934EFE23DE27AD00F99AE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D934EFD23DE27AD00F99AE0 /* Preview Assets.xcassets */; };
 		1D934F0123DE27AD00F99AE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D934EFF23DE27AD00F99AE0 /* LaunchScreen.storyboard */; };
+		1D934F0923DE281300F99AE0 /* BarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D934F0823DE281300F99AE0 /* BarGraphView.swift */; };
+		1D934F0B23DE285F00F99AE0 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D934F0A23DE285F00F99AE0 /* Report.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1D934EFD23DE27AD00F99AE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D934F0023DE27AD00F99AE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D934F0223DE27AD00F99AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D934F0823DE281300F99AE0 /* BarGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraphView.swift; sourceTree = "<group>"; };
+		1D934F0A23DE285F00F99AE0 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1D934EFF23DE27AD00F99AE0 /* LaunchScreen.storyboard */,
 				1D934F0223DE27AD00F99AE0 /* Info.plist */,
 				1D934EFC23DE27AD00F99AE0 /* Preview Content */,
+				1D934F0823DE281300F99AE0 /* BarGraphView.swift */,
+				1D934F0A23DE285F00F99AE0 /* Report.swift */,
 			);
 			path = CreatingBarGraphInSwiftUI;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D934EF523DE27A900F99AE0 /* AppDelegate.swift in Sources */,
+				1D934F0B23DE285F00F99AE0 /* Report.swift in Sources */,
 				1D934EF723DE27A900F99AE0 /* SceneDelegate.swift in Sources */,
 				1D934EF923DE27A900F99AE0 /* ContentView.swift in Sources */,
+				1D934F0923DE281300F99AE0 /* BarGraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
